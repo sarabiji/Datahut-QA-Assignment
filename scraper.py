@@ -14,7 +14,7 @@ def scrape_myntra_bags():
     # --- WebDriver Initialization (with STEALTH options) ---
     print("Initializing WebDriver for Brave...")
     options = webdriver.ChromeOptions()
-    options.add_argument("--headless")
+    #options.add_argument("--headless")
     options.add_argument("--start-maximized")
     options.add_argument('--no-sandbox')
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36")
@@ -99,9 +99,9 @@ def scrape_myntra_bags():
             driver.execute_script("arguments[0].click();", clickable_button)
             page_num += 1
 
-            if page_num > 5:
-                print("\nReached the maximum limit of 5 pages. Stopping the scrape.")
-                break
+            # if page_num > 5:
+            #     print("\nReached the maximum limit of 5 pages. Stopping the scrape.")
+            #     break
         except (NoSuchElementException, TimeoutException):
             print("\nCould not find a clickable 'Next' button. This is the last page.")
             driver.save_screenshot('debug_final_page.png')
