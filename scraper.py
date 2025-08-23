@@ -7,11 +7,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.common.keys import Keys
 
-# --- Configuration ---
 URL = "https://www.myntra.com/handbags-and-bags"
 
 def scrape_myntra_bags():
-    # --- WebDriver Initialization (with STEALTH options) ---
+    # WebDriver Initialization (with STEALTH options)
     print("Initializing WebDriver for Brave...")
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
@@ -45,10 +44,9 @@ def scrape_myntra_bags():
             product_elements = driver.find_elements(By.CSS_SELECTOR, "li.product-base")
             print(f"Found {len(product_elements)} products on this page.")
             
-            # --- Data Extraction (No changes needed here) ---
+            # Data Extraction 
             for product in product_elements:
                 try:
-                    # ... your data extraction code for each product ...
                     brand = product.find_element(By.CSS_SELECTOR, "h3.product-brand").text
                     product_name = product.find_element(By.CSS_SELECTOR, "h4.product-product").text
                     product_url = product.find_element(By.CSS_SELECTOR, "a").get_attribute('href')
@@ -84,10 +82,10 @@ def scrape_myntra_bags():
             break
 
         try:
-            # --- Pagination Logic ---
+            # Pagination Logic
             # Wait for the 'Next' button to be clickable
             next_button_selector = "li.pagination-next" 
-            # This selector may need to be adjusted based on the actual HTML structure
+            
             next_button = driver.find_element(By.CSS_SELECTOR, next_button_selector)
             
             driver.execute_script("arguments[0].scrollIntoView({block: 'center', inline: 'center'});", next_button)
