@@ -1,0 +1,37 @@
+E-commerce Product Pricing Analysis 
+
+1. Descriptive Statistics for Prices and Ratings 
+,SalePrice,MRP,Rating
+count,3790.0,3790.0,3790.0
+mean,3154.5224274406332,6558.765567282322,1.378575197889182
+std,4173.663315987055,7724.795481323822,2.0012097361449475
+min,231.0,499.0,0.0
+25%,999.0,2499.0,0.0
+50%,1610.0,3799.0,0.0
+75%,3399.0,6997.25,4.0
+max,41200.0,59999.0,5.0
+
+2. Top 5 Brands by Number of Products 
+Brand,count
+Caprese,137
+Nasher Miles,107
+Guess,97
+Wildcraft,92
+Safari,70
+
+3. Top 5 Brands by Highest Average Discount 
+Brand,DiscountPercentage
+Blubags,90.02
+Sage,89.0
+Likaa,84.02
+Optima,83.36
+Seenlee,83.25
+
+4. Pricing and Rating Trends by Top 5 Sub-Categories
+SubCategory,NumberOfProducts,AverageSalePrice,AverageRating
+Unisex,533,2444.33,1.81
+Women,493,2851.93,1.07
+Structured,295,2277.41,1.69
+Men,221,3021.93,0.79
+Pu,221,2531.96,1.03
+

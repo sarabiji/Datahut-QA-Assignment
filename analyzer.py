@@ -62,5 +62,9 @@ def analyze_and_visualize(input_file="myntra_bags_cleaned.csv"):
     print("Visualizations saved to myntra_analysis_visuals.png")
     plt.show()
 
+
+
+    
+
 if __name__ == "__main__":
     analyze_and_visualize()
