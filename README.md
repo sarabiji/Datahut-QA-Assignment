@@ -6,7 +6,7 @@
 
 ---
 ### **1. Executive Summary**
-This report details the findings from a data analysis project focused on the women's bags category on Myntra.com. By systematically scraping, cleaning, and analyzing data from over 3,700 product listings, this project aimed to uncover key insights into pricing strategies, brand positioning, and consumer ratings.
+This report details the findings from a data analysis project focused on the bags category on Myntra.com. By systematically scraping, cleaning, and analyzing data from over 3,700 product listings, this project aimed to uncover key insights into pricing strategies, brand positioning, and consumer ratings.
 
 The analysis reveals a diverse market with prices ranging from budget-friendly to premium, though the average sale price of a bag is approximately ₹3,155. A significant observation is the low mean rating of 1.38 across all products, heavily influenced by a large number of unrated items. The market shows clear dominance by brands like **Caprese** and **Nasher Miles** in terms of product variety. Furthermore, the analysis identifies niche brands, such as **Blubags**, that compete aggressively on price by offering the highest average discounts. Sub-category analysis indicates that "Unisex" and "Women" are the most common product descriptors, with items explicitly labeled for "Men" commanding the highest average price.
 
