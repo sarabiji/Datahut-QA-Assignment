@@ -65,6 +65,7 @@ Here is a dashboard summarizing the key findings from the analysis:
 ![Analysis Visualizations](myntra_analysis_visuals.png)
 
 This visual dashboard illustrates four key findings: the distribution of product sale prices, a ranking of top brands by average discount, the price spread for the most prominent brands, and the correlation between product ratings and discount percentages.
+
 ---
 
 ### **4. Challenges Faced and Solutions**
