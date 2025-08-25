@@ -1,6 +1,6 @@
 ### **Project Report: E-commerce Product Pricing Analysis**
 
-**Analysis of Women's Bags on Myntra.com**
+**Analysis of the Handbags and Bags Category on Myntra.com**
 
 **Date:** August 25, 2025
 
