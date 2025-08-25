@@ -58,6 +58,15 @@ Analyzing the first word in product names revealed the most common product types
 * **Price and Rating Trends:** Bags specifically labeled for **"Men"** have the highest average sale price at **₹3,022**, yet they also have the lowest average rating (0.79). **"Unisex"** bags, the largest sub-category, have a higher average rating (1.81) than most other top categories. The low ratings across all top sub-categories are consistent with the overall dataset's low mean rating.
 
 ---
+### Visualizations
+
+Here is a dashboard summarizing the key findings from the analysis:
+
+![Analysis Visualizations](myntra_analysis_visuals.png)
+
+This visual dashboard illustrates four key findings: the distribution of product sale prices, a ranking of top brands by average discount, the price spread for the most prominent brands, and the correlation between product ratings and discount percentages.
+---
+
 ### **4. Challenges Faced and Solutions**
 
 The project required overcoming several technical hurdles to ensure successful data collection and analysis.
